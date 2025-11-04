@@ -22,19 +22,19 @@ const projects = [
     },
     {
         id: 3,
-        title: "Share Secrets Site",
-        description: "Full-stack authentication platform for sharing secured secrets with verified users",
-        link: "https://github.com/YarikVitovsky/Secrets",
-        isLive: false,
-        color: "#7C3AED" // Violet
-    },
-    {
-        id: 4,
         title: "Cat Meme Generator",
         description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
         link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
         isLive: true,
         color: "#EA580C" // Orange
+    },
+    {
+        id: 4,
+        title: "Share Secrets Site",
+        description: "Full-stack authentication platform for sharing secured secrets with verified users",
+        link: "https://github.com/YarikVitovsky/Secrets",
+        isLive: false,
+        color: "#7C3AED" // Violet
     },
     {
         id: 5,
