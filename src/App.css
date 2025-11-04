@@ -75,9 +75,12 @@
 /* Header Links */
 .header-links {
     margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.github-link {
+.social-link {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -93,18 +96,18 @@
     font-size: 0.95rem;
 }
 
-.github-link:hover {
+.social-link:hover {
     background: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-.github-link svg {
+.social-link svg {
     transition: transform 0.3s ease;
 }
 
-.github-link:hover svg {
+.social-link:hover svg {
     transform: scale(1.1);
 }
 
@@ -181,9 +184,13 @@
         padding: 40px 0;
     }
 
-    .github-link {
+    .social-link {
         font-size: 0.9rem;
         padding: 10px 16px;
+    }
+
+    .header-links {
+        gap: 12px;
     }
 }
 
