@@ -22,7 +22,7 @@ const projects = [
     },
     {
         id: 3,
-        title: "Cat Meme Generator ⭐",
+        title: "Cat Meme Generator",
         description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
         link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
         isLive: true,
