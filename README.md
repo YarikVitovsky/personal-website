@@ -2,27 +2,62 @@
 
 A modern, elegant React portfolio website featuring project cards with unique colors and smooth animations. Perfect for showcasing your work to HR professionals and potential employers.
 
-## Features
+🌐 **Live Demo**: [https://bright-melomakarona-fbe9bb.netlify.app](https://bright-melomakarona-fbe9bb.netlify.app)
+
+## 🚀 Features
 
 - **Single Page Design** - Clean, focused layout that's easy to navigate
 - **Elegant Project Cards** - Each project gets a unique color with hover effects
 - **Responsive Design** - Looks great on all devices
 - **Modern UI** - Glass-morphism effects and smooth animations
-- **Easy to Customize** - Simple data structure for adding your projects
+- **Personal Branding** - Professional header with photo and bio
+- **Real Projects** - Showcases 7 live projects with direct links
+- **Fast Loading** - Deployed on Netlify for instant access
 
-## Quick Start
+## 🛠️ Technologies Used
 
-1. Install dependencies:
+- **React 18** - Modern frontend framework
+- **Vite** - Fast build tool and development server
+- **CSS3** - Advanced styling with animations and effects
+- **Netlify** - Fast, reliable hosting platform
+
+## 🎯 Project Showcase
+
+The portfolio features 7 real projects:
+- **Keeper App** - React note-taking application
+- **To-Do App** - Task management with React
+- **Share Secrets Site** - Full-stack authentication platform
+- **Cat Meme Generator** - Fun API-powered application
+- **Book Review Platform** - RESTful API for reviews
+- **Dice Race Game** - Interactive vanilla JavaScript game
+- **Cats vs Dogs Classifier** - Machine learning model on Hugging Face
+
+## 💻 Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YarikVitovsky/personal-website.git
+   cd personal-website
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
-3. Open your browser and visit the URL shown in the terminal (usually `http://localhost:5173`)
+4. Open your browser and visit `http://localhost:5173`
+
+## 🚀 Deployment
+
+The site is automatically deployed to Netlify from the main branch. Any push to main will trigger a new deployment.
+
+**Build Command**: `npm run build`  
+**Publish Directory**: `dist`
 
 ## Customization
 
@@ -93,4 +128,19 @@ The `dist` folder will contain your optimized website ready for deployment to an
 - Modern CSS with animations
 - Responsive design principles
 
-Perfect for impressing HR teams with a professional, easy-to-navigate showcase of your work!
+## ⚡ Performance
+
+- **Fast Loading** - Vite-optimized build with code splitting
+- **SEO Friendly** - Proper meta tags and semantic HTML
+- **Lighthouse Score** - Optimized for performance and accessibility
+- **Mobile First** - Responsive design that works on all devices
+
+## 🤝 Connect
+
+- **Portfolio**: [https://bright-melomakarona-fbe9bb.netlify.app](https://bright-melomakarona-fbe9bb.netlify.app)
+- **GitHub**: [https://github.com/YarikVitovsky](https://github.com/YarikVitovsky)
+- **LinkedIn**: [Yarik Vitovsky](https://linkedin.com/in/yarik-vitovsky)
+
+---
+
+Perfect for impressing HR teams and showcasing your development skills! 🎯
