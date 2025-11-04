@@ -32,7 +32,7 @@ const projects = [
         id: 4,
         title: "Cat Meme Generator",
         description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
-        link: "https://cat-meme-generator-z780.onrender.com/",
+        link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
         isLive: true,
         color: "#EA580C" // Orange
     },
