@@ -2,7 +2,7 @@
 
 A modern, elegant React portfolio website featuring project cards with unique colors and smooth animations. Perfect for showcasing your work to HR professionals and potential employers.
 
-🌐 **Live Demo**: [https://bright-melomakarona-fbe9bb.netlify.app](https://bright-melomakarona-fbe9bb.netlify.app)
+🌐 **Live Demo**: [https://yarik-vitovsky-personal-websiteb.netlify.app](https://yarik-vitovsky-personal-website.netlify.app)
 
 ## 🚀 Features
 
