@@ -20,16 +20,16 @@ const beginnerProjects = [
         id: 2,
         title: "Keeper App",
         description: "React-based note-taking app for organizing thoughts and ideas with a clean interface",
-        link: "https://stupendous-treacle-9f774e.netlify.app/",
-        isLive: true,
+        link: "https://github.com/YarikVitovsky/keeper-app",
+        isLive: false,
         color: "#4F46E5" // Indigo
     },
     {
         id: 3,
         title: "To-Do App",
         description: "Interactive task management application built with React for tracking daily goals",
-        link: "https://grand-cannoli-84eaed.netlify.app",
-        isLive: true,
+        link: "https://github.com/YarikVitovsky/todo-app",
+        isLive: false,
         color: "#059669" // Emerald
     },
     {
@@ -60,8 +60,8 @@ const beginnerProjects = [
         id: 7,
         title: "Dice Race Game",
         description: "Interactive frontend dice game where highest score moves the car - built with vanilla JS",
-        link: "https://yarikvitovsky.github.io/DiceGame/dice.html",
-        isLive: true,
+        link: "https://github.com/YarikVitovsky/DiceGame",
+        isLive: false,
         color: "#0891B2" // Cyan
     },
     {
