@@ -2,10 +2,22 @@ import React from 'react'
 import ProjectCard from './components/ProjectCard'
 import './App.css'
 
-// Your real projects
-const projects = [
+// Intermediate Projects
+const intermediateProjects = [
     {
         id: 1,
+        title: "ProjectHub - Project Manager",
+        description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
+        link: "https://github.com/YarikVitovsky/project-manager",
+        isLive: false,
+        color: "#6366F1" // Indigo
+    }
+]
+
+// Beginner Tutorial Projects
+const beginnerProjects = [
+    {
+        id: 2,
         title: "Keeper App",
         description: "React-based note-taking app for organizing thoughts and ideas with a clean interface",
         link: "https://stupendous-treacle-9f774e.netlify.app/",
@@ -13,7 +25,7 @@ const projects = [
         color: "#4F46E5" // Indigo
     },
     {
-        id: 2,
+        id: 3,
         title: "To-Do App",
         description: "Interactive task management application built with React for tracking daily goals",
         link: "https://grand-cannoli-84eaed.netlify.app",
@@ -21,7 +33,7 @@ const projects = [
         color: "#059669" // Emerald
     },
     {
-        id: 3,
+        id: 4,
         title: "Cat Meme Generator",
         description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
         link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
@@ -29,7 +41,7 @@ const projects = [
         color: "#EA580C" // Orange
     },
     {
-        id: 4,
+        id: 5,
         title: "Share Secrets Site",
         description: "Full-stack authentication platform for sharing secured secrets with verified users",
         link: "https://github.com/YarikVitovsky/Secrets",
@@ -37,7 +49,7 @@ const projects = [
         color: "#7C3AED" // Violet
     },
     {
-        id: 5,
+        id: 6,
         title: "Book Review Platform",
         description: "RESTful API application for writing and sharing book reviews and thoughts",
         link: "https://github.com/YarikVitovsky/Book-Review",
@@ -45,7 +57,7 @@ const projects = [
         color: "#DC2626" // Red
     },
     {
-        id: 6,
+        id: 7,
         title: "Dice Race Game",
         description: "Interactive frontend dice game where highest score moves the car - built with vanilla JS",
         link: "https://yarikvitovsky.github.io/DiceGame/dice.html",
@@ -53,7 +65,7 @@ const projects = [
         color: "#0891B2" // Cyan
     },
     {
-        id: 7,
+        id: 8,
         title: "Cats vs Dogs Classifier",
         description: "Machine learning model using TensorFlow/Keras to distinguish between cat and dog images",
         link: "https://huggingface.co/spaces/YarikVitovsky/cat-vs-dog-classifier",
@@ -112,13 +124,33 @@ function App() {
             <main className="main">
                 <div className="container">
                     <h2 className="section-title">My Projects</h2>
-                    <div className="projects-grid">
-                        {projects.map(project => (
-                            <ProjectCard
-                                key={project.id}
-                                project={project}
-                            />
-                        ))}
+
+                    {/* Intermediate Projects */}
+                    <div className="project-section">
+                        <h3 className="subsection-title">Intermediate Projects</h3>
+                        <div className="section-divider"></div>
+                        <div className="projects-grid">
+                            {intermediateProjects.map(project => (
+                                <ProjectCard
+                                    key={project.id}
+                                    project={project}
+                                />
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Beginner Projects */}
+                    <div className="project-section">
+                        <h3 className="subsection-title">Beginner Projects</h3>
+                        <div className="section-divider"></div>
+                        <div className="projects-grid">
+                            {beginnerProjects.map(project => (
+                                <ProjectCard
+                                    key={project.id}
+                                    project={project}
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </main>

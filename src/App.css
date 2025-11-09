@@ -126,6 +126,32 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Project Sections */
+.project-section {
+    margin-bottom: 80px;
+}
+
+.project-section:last-child {
+    margin-bottom: 0;
+}
+
+.subsection-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-divider {
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
+
 /* Projects Grid */
 .projects-grid {
     display: grid;
@@ -154,6 +180,14 @@
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .subsection-title {
+        font-size: 1.5rem;
+    }
+
+    .project-section {
+        margin-bottom: 60px;
     }
 
     .projects-grid {
