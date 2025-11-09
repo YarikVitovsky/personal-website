@@ -9,7 +9,7 @@ const intermediateProjects = [
         title: "ProjectHub - Project Manager",
         description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
         link: "https://github.com/YarikVitovsky/project-manager",
-        isLive: false,
+        isLive: true,
         color: "#6366F1" // Indigo
     }
 ]
