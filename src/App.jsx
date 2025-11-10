@@ -8,7 +8,7 @@ const intermediateProjects = [
         id: 1,
         title: "ProjectHub - Project Manager",
         description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
-            link: "https://yariks-project-manager.netlify.app",
+        link: "https://yariks-project-manager.netlify.app",
         isLive: true,
         color: "#6366F1" // Indigo
     }
