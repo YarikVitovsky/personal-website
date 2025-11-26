@@ -22,11 +22,11 @@ const beginnerProjects = [
     },
     {
         id: 8,
-        title: "Cats vs Dogs Classifier",
-        description: "Machine learning model using TensorFlow/Keras to distinguish between cat and dog images",
-        link: "https://huggingface.co/spaces/YarikVitovsky/cat-vs-dog-classifier",
+        title: "Cat Meme Generator",
+        description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
+        link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
         isLive: true,
-        color: "#C2410C" // Orange-Red
+        color: "#EA580C" // Orange
     },
     {
         id: 7,
@@ -54,11 +54,11 @@ const beginnerProjects = [
     },
     {
         id: 4,
-        title: "Cat Meme Generator",
-        description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
-        link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
+        title: "Cats vs Dogs Classifier",
+        description: "Machine learning model using TensorFlow/Keras to distinguish between cat and dog images",
+        link: "https://huggingface.co/spaces/YarikVitovsky/cat-vs-dog-classifier",
         isLive: true,
-        color: "#EA580C" // Orange
+        color: "#C2410C" // Orange-Red
     },
     {
         id: 3,
