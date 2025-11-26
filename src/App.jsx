@@ -5,52 +5,20 @@ import './App.css'
 // Beginner Projects
 const beginnerProjects = [
     {
-        id: 2,
-        title: "Keeper App",
-        description: "React-based note-taking app for organizing thoughts and ideas with a clean interface",
-        link: "https://github.com/YarikVitovsky/keeper-app",
+        id: 10,
+        title: "Celestial Registry",
+        description: "A platform for managing celestial objects and their data, built with modern web technologies.",
+        link: "https://github.com/YarikVitovsky/celestial-registry",
         isLive: false,
-        color: "#4F46E5" // Indigo
+        color: "#3B82F6" // Blue
     },
     {
-        id: 3,
-        title: "To-Do App",
-        description: "Interactive task management application built with React for tracking daily goals",
-        link: "https://github.com/YarikVitovsky/todo-app",
+        id: 9,
+        title: "Next.js Dashboard",
+        description: "A dynamic dashboard application built with Next.js, showcasing server-side rendering and API integration.",
+        link: "https://github.com/YarikVitovsky/nextjs-dashboard",
         isLive: false,
-        color: "#059669" // Emerald
-    },
-    {
-        id: 4,
-        title: "Cat Meme Generator",
-        description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
-        link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
-        isLive: true,
-        color: "#EA580C" // Orange
-    },
-    {
-        id: 5,
-        title: "Share Secrets Site",
-        description: "Full-stack authentication platform for sharing secured secrets with verified users",
-        link: "https://github.com/YarikVitovsky/Secrets",
-        isLive: false,
-        color: "#7C3AED" // Violet
-    },
-    {
-        id: 6,
-        title: "Book Review Platform",
-        description: "RESTful API application for writing and sharing book reviews and thoughts",
-        link: "https://github.com/YarikVitovsky/Book-Review",
-        isLive: false,
-        color: "#DC2626" // Red
-    },
-    {
-        id: 7,
-        title: "Dice Race Game",
-        description: "Interactive frontend dice game where highest score moves the car - built with vanilla JS",
-        link: "https://github.com/YarikVitovsky/DiceGame",
-        isLive: false,
-        color: "#0891B2" // Cyan
+        color: "#10B981" // Green
     },
     {
         id: 8,
@@ -61,20 +29,52 @@ const beginnerProjects = [
         color: "#C2410C" // Orange-Red
     },
     {
-        id: 9,
-        title: "Celestial Registry",
-        description: "A platform for managing celestial objects and their data, built with modern web technologies.",
-        link: "https://github.com/YarikVitovsky/celestial-registry",
+        id: 7,
+        title: "Dice Race Game",
+        description: "Interactive frontend dice game where highest score moves the car - built with vanilla JS",
+        link: "https://github.com/YarikVitovsky/DiceGame",
         isLive: false,
-        color: "#3B82F6" // Blue
+        color: "#0891B2" // Cyan
     },
     {
-        id: 10,
-        title: "Next.js Dashboard",
-        description: "A dynamic dashboard application built with Next.js, showcasing server-side rendering and API integration.",
-        link: "https://github.com/YarikVitovsky/nextjs-dashboard",
+        id: 6,
+        title: "Book Review Platform",
+        description: "RESTful API application for writing and sharing book reviews and thoughts",
+        link: "https://github.com/YarikVitovsky/Book-Review",
         isLive: false,
-        color: "#10B981" // Green
+        color: "#DC2626" // Red
+    },
+    {
+        id: 5,
+        title: "Share Secrets Site",
+        description: "Full-stack authentication platform for sharing secured secrets with verified users",
+        link: "https://github.com/YarikVitovsky/Secrets",
+        isLive: false,
+        color: "#7C3AED" // Violet
+    },
+    {
+        id: 4,
+        title: "Cat Meme Generator",
+        description: "Fun web app that generates hilarious cat jokes with random cat images using public APIs",
+        link: "https://hilarious-banoffee-1e3d7a.netlify.app/",
+        isLive: true,
+        color: "#EA580C" // Orange
+    },
+    {
+        id: 3,
+        title: "To-Do App",
+        description: "Interactive task management application built with React for tracking daily goals",
+        link: "https://github.com/YarikVitovsky/todo-app",
+        isLive: false,
+        color: "#059669" // Emerald
+    },
+    {
+        id: 2,
+        title: "Keeper App",
+        description: "React-based note-taking app for organizing thoughts and ideas with a clean interface",
+        link: "https://github.com/YarikVitovsky/keeper-app",
+        isLive: false,
+        color: "#4F46E5" // Indigo
     }
 ]
 
@@ -128,19 +128,14 @@ function App() {
             <main className="main">
                 <div className="container">
                     <h2 className="section-title">My Projects</h2>
-
-                    {/* Beginner Projects */}
-                    <div className="project-section">
-                        <h3 className="subsection-title">All Projects</h3>
-                        <div className="section-divider"></div>
-                        <div className="projects-grid">
-                            {beginnerProjects.map(project => (
-                                <ProjectCard
-                                    key={project.id}
-                                    project={project}
-                                />
-                            ))}
-                        </div>
+                    <div className="section-divider"></div>
+                    <div className="projects-grid">
+                        {beginnerProjects.map(project => (
+                            <ProjectCard
+                                key={project.id}
+                                project={project}
+                            />
+                        ))}
                     </div>
                 </div>
             </main>
