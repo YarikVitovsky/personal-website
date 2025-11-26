@@ -2,19 +2,7 @@ import React from 'react'
 import ProjectCard from './components/ProjectCard'
 import './App.css'
 
-// Intermediate Projects
-// const intermediateProjects = [
-//     {
-//         id: 1,
-//         title: "ProjectHub - Project Manager",
-//         description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
-//         link: "https://yariks-project-manager.netlify.app",
-//         isLive: true,
-//         color: "#6366F1" // Indigo
-//     }
-// ]
-
-// Beginner Tutorial Projects
+// Beginner Projects
 const beginnerProjects = [
     {
         id: 2,
@@ -141,23 +129,9 @@ function App() {
                 <div className="container">
                     <h2 className="section-title">My Projects</h2>
 
-                    {/* Intermediate Projects */}
-                    <div className="project-section">
-                        <h3 className="subsection-title">Intermediate Projects</h3>
-                        <div className="section-divider"></div>
-                        <div className="projects-grid">
-                            {intermediateProjects.map(project => (
-                                <ProjectCard
-                                    key={project.id}
-                                    project={project}
-                                />
-                            ))}
-                        </div>
-                    </div>
-
                     {/* Beginner Projects */}
                     <div className="project-section">
-                        <h3 className="subsection-title">Beginner Projects</h3>
+                        <h3 className="subsection-title">All Projects</h3>
                         <div className="section-divider"></div>
                         <div className="projects-grid">
                             {beginnerProjects.map(project => (
