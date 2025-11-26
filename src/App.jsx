@@ -3,16 +3,16 @@ import ProjectCard from './components/ProjectCard'
 import './App.css'
 
 // Intermediate Projects
-const intermediateProjects = [
-    {
-        id: 1,
-        title: "ProjectHub - Project Manager",
-        description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
-        link: "https://yariks-project-manager.netlify.app",
-        isLive: true,
-        color: "#6366F1" // Indigo
-    }
-]
+// const intermediateProjects = [
+//     {
+//         id: 1,
+//         title: "ProjectHub - Project Manager",
+//         description: "Full-stack project management application with React, Node.js, and Express. Features dashboard, Kanban board, team management, and analytics",
+//         link: "https://yariks-project-manager.netlify.app",
+//         isLive: true,
+//         color: "#6366F1" // Indigo
+//     }
+// ]
 
 // Beginner Tutorial Projects
 const beginnerProjects = [
@@ -71,6 +71,22 @@ const beginnerProjects = [
         link: "https://huggingface.co/spaces/YarikVitovsky/cat-vs-dog-classifier",
         isLive: true,
         color: "#C2410C" // Orange-Red
+    },
+    {
+        id: 9,
+        title: "Celestial Registry",
+        description: "A platform for managing celestial objects and their data, built with modern web technologies.",
+        link: "https://github.com/YarikVitovsky/celestial-registry",
+        isLive: false,
+        color: "#3B82F6" // Blue
+    },
+    {
+        id: 10,
+        title: "Next.js Dashboard",
+        description: "A dynamic dashboard application built with Next.js, showcasing server-side rendering and API integration.",
+        link: "https://github.com/YarikVitovsky/nextjs-dashboard",
+        isLive: false,
+        color: "#10B981" // Green
     }
 ]
 
